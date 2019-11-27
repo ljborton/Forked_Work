@@ -1,0 +1,54 @@
+* 1.1.0:
+- Install googleapis-common-protos to expose google.longrunning for LRO
+support.
+
+* 1.0.1:
+- Fix bug in import path from issues #45 and #44.
+
+* 1.0.0:
+- Google Ads v1_0 release.
+- Move examples out of v0 directory.
+- Add dismiss_recommendations example.
+- Add get_hotel_ads_performance example.
+
+* 0.7.0:
+- Google Ads v0_7 release.
+- Address inconsistent exception handling in Exception and Logging
+interceptors.
+- Pin `google-api-core` and `grpcio` dependencies.
+
+* 0.6.0:
+- Add configurable logging functionality.
+
+* 0.5.2:
+- Updated PyYAML dependencies to >=4.2b1 for https://nvd.nist.gov/vuln/detail/CVE-2017-18342
+
+* 0.5.1:
+- Fix bug related to usage of private grpc._interceptor._ClientCallDetails class
+
+* 0.5.0:
+- Google Ads v0_6 release.
+- Updating add_campaign_targeting_criteria.py example to add
+  create proximity operation
+- Updating apply_recommendation.py example to pass required parameter
+  partial_failure=False
+- Updating get_geo_target_constant_by_names.py example to add
+  new required country_code parameter
+- Updating client.py to accept a login_customer_id
+- Fixing bug in ExceptionInterceptor to improve error logging. Resolves GitHub
+  issue #8: https://github.com/googleads/google-ads-python/issues/8
+
+* 0.4.0:
+- Google Ads v0_5 release.
+- Adding remarketing/add_conversion_action.py example.
+
+* 0.3.0:
+- Google Ads v0_4 release.
+- Resolving GitHub issue #3:
+  https://github.com/googleads/google-ads-python/issues/3
+
+* 0.2.0:
+- Google Ads v0_3 release.
+
+* 0.1.0:
+- Initial release with support for Google Ads API v0.
