@@ -21,7 +21,7 @@ install_requires = [
     'google-auth-oauthlib >= 0.0.1, < 1.0.0',
     'google-api-core == 1.7.0',
     'googleapis-common-protos >= 1.5.8, < 2.0.0',
-    'grpcio == 1.18.0',
+    'grpcio == 1.53.0',
     'PyYAML >= 4.2b1, < 5.0',
 ]
 
